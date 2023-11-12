@@ -61,3 +61,8 @@
     "use strict";
 
 }) ();
+
+  function closeNavbar() {
+    var collapse = document.getElementById("navbarNine");
+    collapse.style.display = "none";
+  }
