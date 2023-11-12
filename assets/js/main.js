@@ -67,7 +67,7 @@ function closeNavbar() {
   const navbarCollapse = document.getElementById('navbarNine');
 
   // Check if the navbar is open
-  if (navbarCollapse.classList.contains('hide')) {
+  if (navbarCollapse.classList.contains('show')) {
     // Close the navbar by removing the 'show' class
     navbarCollapse.classList.remove('show');
   }
