@@ -62,7 +62,13 @@
 
 }) ();
 
-$('#overlay-menu ul li a').click(function(){
-   $(this).closest('.overlay').hide();
-   $(this).closest('.overlay-menu').hide();
-});
+function closeNavbar() {
+  // Get the navbar collapse element
+  const navbarCollapse = document.getElementById('navbarNine');
+
+  // Check if the navbar is open
+  if (navbarCollapse.classList.contains('show')) {
+    // Close the navbar by removing the 'show' class
+    navbarCollapse.classList.remove('show');
+  }
+};
