@@ -63,6 +63,6 @@
 }) ();
 
 function closeNavbar() {
-    var collapse = document.getElementById("navbarNine");
-    collapse.style.display = "none";
+    var navbar = document.getElementById("navbarNine");
+    navbar.style.display = "none";
 };
