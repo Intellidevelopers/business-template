@@ -66,3 +66,7 @@
     var collapse = document.getElementById("navbarNine");
     collapse.style.display = "none";
   }
+function closeNavbar() {
+  // Close the navbar by removing the 'active' class
+  document.querySelector('.collapse').classList.remove('active');
+}
