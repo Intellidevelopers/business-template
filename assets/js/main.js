@@ -62,7 +62,7 @@
 
 }) ();
 
-function closeNavbar() {
-    var navbar = document.getElementById("navbarNine");
-    navbar.style.display = "none";
-};
+$('#overlay-menu ul li a').click(function(){
+   $(this).closest('.overlay').hide();
+   $(this).closest('.overlay-menu').hide();
+});
