@@ -787,11 +787,7 @@
   <script src="assets/js/glightbox.min.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/tiny-slider.js"></script>
-<script>
-  function closeNavbar() {
-    $(".navbar-collapse").collapse("hide");
-  }
-</script>
+
   <script>
 
     //===== close navbar-collapse when a  clicked
@@ -799,7 +795,7 @@
       ".navbar-nine .navbar-toggler"
     );
     navbarTogglerNine.addEventListener("click", function () {
-      navbarTogglerNine.classList.toggle("active");
+      navbarTogglerNine.classList.toggle("hide");
     });
 
     // ==== left sidebar toggle
