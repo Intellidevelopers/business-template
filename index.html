@@ -795,7 +795,7 @@
       ".navbar-nine .navbar-toggler"
     );
     navbarTogglerNine.addEventListener("click", function () {
-      navbarTogglerNine.classList.toggle("hide");
+      navbarTogglerNine.classList.toggle("active");
     });
 
     // ==== left sidebar toggle
@@ -830,6 +830,11 @@
     });
 
   </script>
+	<script>
+  function closeNavbar() {
+    $(".collapse").collapse("hide");
+  }
+	</script>
 	<!-- Start cookieyes banner --> <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/272c6a87950e1622f1f038d2/script.js"></script> <!-- End cookieyes banner -->
 </body>
 
