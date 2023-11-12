@@ -61,11 +61,3 @@
     "use strict";
 
 }) ();
-function closeNavbar() {
-    var collapse = document.getElementById("navbarNine");
-    if (collapse.style.display === "none" || collapse.style.display === "") {
-      collapse.style.display = "block";
-    } else {
-      collapse.style.display = "none";
-    }
-}
