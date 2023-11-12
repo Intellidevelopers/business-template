@@ -62,8 +62,7 @@
 
 }) ();
 
-  
 function closeNavbar() {
-  // Close the navbar by removing the 'active' class
-  document.querySelector('.navbar-collapse').classList.remove('active');
-}
+    var collapse = document.getElementById("navbarNine");
+    collapse.style.display = "none";
+};
